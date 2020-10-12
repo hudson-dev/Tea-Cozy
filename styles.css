@@ -31,7 +31,7 @@ nav section {
     display: flex;
 }
 
-main {
+#mission {
     margin: 0 auto;
     height: 700px;
     width: 90%;
@@ -41,24 +41,48 @@ main {
     background-size: cover;
 
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 #banner {
-    align-self: center;
-    height: 115px;
-    width: 1200px;
+    /* height: 115px; */
+    width: 100%;
     background-color: black;
 
     display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #banner h2 {
-    margin: 12px auto 25px auto;
+    margin: 12px 0 25px 0;
 }
 
 #banner h4 {
-    align-self: flex-end;
+    position: relative;
+    bottom: 0px;
+    margin-bottom: 20px;
 }
 
+#tea-month {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#tea-gallery {
+    width: 1000px;
+}
+
+#tea-gallery img {
+    height: 200px;
+    width: 300px;
+}
+
+#second-row {
+    margin: 0 auto;
+}
 
